@@ -25,7 +25,6 @@ def CI():
         amount=x*(1+y/100)**z
         print("Amount: Rs ",amount)
         print("CI: Rs", amount-x)
-CI()
 
 
 
