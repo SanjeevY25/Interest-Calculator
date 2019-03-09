@@ -30,10 +30,10 @@ def CI():
 while True:        
     Option = input("Select the function you want to use(CI for Compound Interest or SI for Simple Interest) :")
 
-    if Option = "CI"
+    if Option == "CI":
         CI()
         break
-    elif Option = "SI":
+    elif Option == "SI":
         SI()
         break
     else:
