@@ -1,3 +1,4 @@
+
 def SI():
     print("Find out SI with Amount")
     x=float(input('Principle:'))
@@ -25,6 +26,18 @@ def CI():
         amount=x*(1+y/100)**z
         print("Amount: Rs ",amount)
         print("CI: Rs", amount-x)
+
+while true:        
+    Option = input("Select the function you want to use(CI for Compound Interest or SI for Simple Interest) :")
+
+    if Option = "CI"
+        CI()
+        break
+    elif Option = "SI":
+        SI()
+        break
+    else:
+        print("Error:Select an appropriate option.")
 
 
 
